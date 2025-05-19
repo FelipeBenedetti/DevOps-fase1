@@ -33,7 +33,11 @@ jobs:
     
     - name: Test with pytest
       run: |
-        pytest --cov=src tests/
+        PYTHONPATH=src pytest --cov=src tests/
+
+    - name: Show working directory
+      run: pwd && ls -R
+
     
     - name: Validate Terraform
       run: |
