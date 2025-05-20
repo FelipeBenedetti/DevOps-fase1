@@ -8,7 +8,7 @@ Este repositório contém a implementação de um pipeline completo de DevOps, i
 .
 ├── .github/workflows    # Configurações do GitHub Actions para CI/CD
 ├── src/                 # Código fonte da aplicação de exemplo
-├── tests/               # Testes automatizados
+├   ├─ tests/               # Testes automatizados
 └── terraform/           # Scripts de Infraestrutura como Código
 ```
 
@@ -42,7 +42,7 @@ Este repositório contém a implementação de um pipeline completo de DevOps, i
 
 3. Execute os testes:
    ```
-   pytest tests/
+   pytest src/tests/
    ```
 
 4. Execute a aplicação localmente:
