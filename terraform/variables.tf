@@ -73,25 +73,25 @@ variable "db_engine" {
 variable "db_engine_version" {
   description = "Versão do engine do banco de dados RDS"
   type        = string
-  default     = "13"
+  default     = "17.2"
 }
 
 variable "db_name" {
   description = "Nome do banco de dados"
   type        = string
-  default     = "appdb"
+  default     = "devops"
 }
 
 variable "db_username" {
   description = "Nome de usuário do banco de dados"
   type        = string
-  default     = "dbadmin"
+  default     = "postgres"
   sensitive   = true
 }
 
 variable "db_password" {
   description = "Senha do banco de dados"
   type        = string
-  default     = "ChangeMe123!"  # Apenas para demonstração, use secrets em produção
+  default     = "devopsPUCRS" 
   sensitive   = true
 }
