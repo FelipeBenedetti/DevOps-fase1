@@ -35,9 +35,10 @@ jobs:
         ls -R
 
     - name: Test with pytest
+      working-directory: ./src
       run: |
-        export PYTHONPATH=$(pwd)/src
-        pytest --cov=src src/tests
+        export PYTHONPATH=.
+        pytest --cov=. tests
 
 
     - name: Validate Terraform
