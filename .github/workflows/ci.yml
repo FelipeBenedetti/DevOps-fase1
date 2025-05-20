@@ -37,7 +37,8 @@ jobs:
     - name: Test with pytest
       run: |
         export PYTHONPATH=$(pwd)/src
-        pytest --cov=src tests/
+        pytest --cov=src src/tests
+
 
     - name: Validate Terraform
       run: |
