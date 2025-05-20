@@ -2,12 +2,12 @@ import unittest
 import sys
 import os
 
-# Adiciona o caminho do diretório `src` ao PYTHONPATH
+
 sys.path.insert(
     0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src"))
 )
 
-from app import app  # Agora isso vai funcionar corretamente
+from app import app  
 
 
 class TestApp(unittest.TestCase):
