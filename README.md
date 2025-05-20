@@ -31,8 +31,8 @@ Este repositório contém a implementação de um pipeline completo de DevOps, i
 
 1. Clone o repositório:
    ```
-   git clone https://github.com/seu-usuario/devops-projeto.git
-   cd devops-projeto
+   git clone https://github.com/FelipeBenedetti/DevOps-fase1.git
+   cd DevOps-fase1
    ```
 
 2. Instale as dependências:
@@ -60,15 +60,3 @@ O pipeline de CI/CD está configurado para executar automaticamente nas seguinte
 
 - **Push para as branches main ou develop**: Executa testes, análise de código e validação de infraestrutura.
 - **Pull Requests para main ou develop**: Executa testes e análise de código para validar as alterações antes do merge.
-
-## Documentação
-
-Para mais informações sobre o projeto, consulte:
-
-- [Documentação de Planejamento](docs/planejamento.md)
-- [Especificação da Infraestrutura](docs/infraestrutura.md)
-- [Tutorial de Implementação](docs/tutorial_implementacao.md)
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
